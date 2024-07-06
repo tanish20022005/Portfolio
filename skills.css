@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: aqua;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    height:18vh;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-image: url("picture.jpg");
+    color: #fff;
+    border-radius: 25px;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+.list{
+    font-size: 2rem;
+    background-color: bisque;
+    background-image: url("picture3.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height:80vh;
+    border-radius: 25px;
+    font-family: "Poppins", sans-serif;
+}
+li{
+    padding-top: 20px;
+    padding-left: 20px;
+}

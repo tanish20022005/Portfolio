@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="pf.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="execute.png" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="container" data-scroll-container>
+            <div class="back">
+                <img src="picture.jpg" alt="">
+                <img src="picture2.jpg" alt="">
+                <img src="picture3.jpg" alt="">
+                <img src="picture5.jpg" alt="">
+                <img src="picture4.jpg" alt="">
+            </div>
+            <div class="top" data-scroll>
+                <div class="workingarea">
+                    <div class="navbar">
+                        <div class="left"><img src="deadpool.png" onclick="href" alt=""></div>
+                        <div class="right"><a href="skills.html">Skills</a><a href="projects.html">Projects</a><a href="photography.html">Photography</a></div>
+                    </div>
+                    <div class="hero" data-scroll data-scroll-speed="0.6">
+                        <div class="heroleft">
+                            <div class="elem">
+                                <h1>my name </h1>
+                                <h1>i like</h1>
+                                <h1>developing</h1>
+                                <h1>i am also</h1>
+                                <h1>and loves </h1>
+                            </div>
+                            <div class="elem">
+                                <h1>is Tanish</h1>
+                                <h1>designing</h1>
+                                <h1>them  </h1>
+                                <h1>a programmer</h1>
+                                <h1>photography</h1>
+                            </div>
+                            <div class="elem">
+                                <h1>Raghuvanshi.</h1>
+                                <h1>websites and</h1>
+                                <h1>afterwords.</h1>
+                                <h1>alongside</h1>
+                                <h1>too.</h1>
+                            </div>
+                            <button>SEE MORE</button>
+                        </div>
+                        <div class="heroright">
+                            <p id="whotf">Who is Tanish Raghuvanshi?</p>
+                            <div class="imagediv" data-scroll data-scroll-speed="0.6"></div>
+                            <p id="whotf1" data-scroll data-scroll-speed="0.6">Hi! I'm Tanish, a full-stack web
+                                developer, studying at AJAY KUMAR GARG
+                                ENGINEERING COLLEGE
+                                pursuing B.Tech with computer science engineering. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page" data-scroll data-scroll-speed="-0">
+                <div class="center">
+                    <p id="whotf2">As a web developer,my best work is YogaFlow.co which is a yoga teaching website.
+                        Along with that i'm working on different full-stack projects.</p>
+                </div>
+                <div class="links">
+                    <div class="link1"><a href="https://tanish20022005.github.io/YogaFlow.co/YogaFlow.html"><img
+                                data-scroll data-scroll-speed="-1" data-scroll-direction="horizontal"
+                                src="yoga-position.png" alt="img" width="80vw" height="80vh"></a></div>
+                    <div class="link2"><a href="https://tanish20022005.github.io/nike/"><img data-scroll data-scroll-speed="0"
+                            data-scroll-direction="horizontal" src="pngwing.com.png" alt="img" width="80vw" height="80vh"></a>
+                    </div>
+                    <div class="link3"><a href="https://tanish20022005.github.io/marvel/"><img data-scroll data-scroll-speed="1"
+                                data-scroll-direction="horizontal" src="spiderman.png" alt="img" width="80vw"
+                                height="80vh"></a></div>
+                </div>
+                <p>*pls click the icons to access the projects.</p>
+            </div>
+            <div class="page1">
+                <h1></h1>
+                <video src="video1.mp4" autoplay loop muted></video>
+            </div>
+            <div class="parent-scroller2">
+                <div class="heading1">
+                    <h1>Me as a frontend developer.</h1>
+                </div>
+                <div class="scroller2">
+                    <p>I'm a skilled frontend developer with a strong passion for creating responsive,
+                        user-friendly web interfaces. With expertise in HTML, CSS, and JavaScript, I build seamless and
+                        dynamic user experiences. My experience with frameworks like React, combined with a
+                        keen
+                        eye for design, enables me to deliver visually appealing and efficient solutions. I thrive in
+                        collaborative environments, continuously learning and adapting to new technologies to ensure the
+                        best results for every project.</p>
+                </div>
+            </div>
+            <div class="page2">
+                <h1></h1>
+                <video src="video2.mp4" autoplay loop muted></video>
+            </div>
+            <div class="parent-scroller3">
+                <div class="heading1">
+                    <h1>Me as a backend developer.</h1>
+                </div>
+                <div class="scroller3">
+                    <p>
+                        I'm a passionate backend development student, building a solid foundation in languages like
+                        JavaScript. I'm focused on understanding server-side frameworks such as Node.js.
+                        and I'm keen on creating efficient and secure APIs. Through practical projects, I'm
+                        enhancing my skills in database management and backend logic. My enthusiasm for problem-solving
+                        drives me to continually learn and adapt to new technologies in the backend ecosystem.</p>
+                </div>
+                <p id="lastpara">created with &#10084; by me</p>
+            </div>
+            
+           
+            
+
+        </div>
+
+
+    </main>
+
+    <!--  Gsap is needed for Basic Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <!-- Scroll Trigger is needed for Scroll Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- Three.js is needed for 3d Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+    <!-- ControlKit is needed for Debug Panel -->
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+    <!-- locomotive for smooth scrolling -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="pf.js"></script>
+</body>
+
+</html>
